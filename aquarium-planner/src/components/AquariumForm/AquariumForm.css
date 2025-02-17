@@ -1,0 +1,37 @@
+.aquarium-form {
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+
+.aquarium-form h2 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.aquarium-form .form-control {
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.aquarium-form .btn {
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.aquarium-form .btn-success {
+    background-color: #28a745;
+    color: whitesmoke;
+}
+
+.aquarium-form .btn-danger {
+    background-color: #dc3545;
+    color: whitesmoke;
+}

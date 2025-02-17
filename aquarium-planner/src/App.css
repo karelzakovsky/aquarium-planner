@@ -1,0 +1,51 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('sea.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  font-weight: 600;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 4px;
+  background-color: #90eef5;
+  color: whitesmoke;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary.active {
+  background-color: #22879c;
+}
+
+.btn-primary:hover {
+  background-color: #22879c;
+}
+
+.d-flex {
+  justify-content: center;
+}
+
+.text-center {
+  color: whitesmoke;
+}
